@@ -13,7 +13,7 @@ def generate_layout_html(layout_grid, layout_id):
         for col_idx, char in enumerate(row):
             if char:
                 # Check if this is a fixed letter
-                fixed_letters = {'n', 'r', 's', 't', 'h', 'e', 'a', 'i', 'u', 'o', 'y'}
+                fixed_letters = {'n', 'r', 's', 't', 'h', 'e', 'a', 'i', 'u', 'o', 'y', '\\', '/', 'q', 'ä', 'ö'}
                 css_class = "key fixed" if char in fixed_letters else "key"
                 display_char = "␣" if char == " " else char
                 html += f'    <div class="{css_class}">{display_char}</div>\n'
@@ -257,7 +257,7 @@ def generate_html_page():
         <div class="legend">
             <div class="legend-item">
                 <span class="legend-key fixed"></span>
-                Fixed letters (nrstheaiuoy)
+                Fixed letters (nrstheaiuoy\/qäö)
             </div>
             <div class="legend-item">
                 <span class="legend-key moveable"></span>

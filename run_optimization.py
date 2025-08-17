@@ -10,7 +10,7 @@ def run_optimization():
     """Run the complete optimization and HTML generation process"""
     print("=== Pareto Multi-Objective Keyboard Layout Optimizer ===")
     print("Optimizing for both English and Finnish simultaneously")
-    print("Fixed letters: n r s t h e a i u o y")
+    print("Fixed letters: n r s t h e a i u o y \\ / q ä ö")
     print()
     
     # Check Python version

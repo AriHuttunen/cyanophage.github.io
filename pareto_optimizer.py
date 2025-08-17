@@ -30,18 +30,14 @@ class Layout:
     
     def dominates(self, other: 'Layout') -> bool:
         """Check if this layout Pareto dominates another"""
-        # Convert to minimization objectives (lower is better)
+        # Convert to minimization objectives (lower is better) - SFB only for now
         self_obj = [
-            self.english_metrics.sfb, self.english_metrics.scissors,
-            self.english_metrics.lat_stretch, self.english_metrics.skip_bigrams,
-            self.finnish_metrics.sfb, self.finnish_metrics.scissors,
-            self.finnish_metrics.lat_stretch, self.finnish_metrics.skip_bigrams
+            self.english_metrics.sfb,
+            self.finnish_metrics.sfb
         ]
         other_obj = [
-            other.english_metrics.sfb, other.english_metrics.scissors,
-            other.english_metrics.lat_stretch, other.english_metrics.skip_bigrams,
-            other.finnish_metrics.sfb, other.finnish_metrics.scissors,
-            other.finnish_metrics.lat_stretch, other.finnish_metrics.skip_bigrams
+            other.english_metrics.sfb,
+            other.finnish_metrics.sfb
         ]
         
         # Check if self is better or equal in all objectives
@@ -54,7 +50,7 @@ class Layout:
 class KeyboardOptimizer:
     def __init__(self):
         # Fixed letters that cannot move
-        self.fixed_letters = {'n', 'r', 's', 't', 'h', 'e', 'a', 'i', 'u', 'o', 'y'}
+        self.fixed_letters = {'n', 'r', 's', 't', 'h', 'e', 'a', 'i', 'u', 'o', 'y', '\\', '/', 'q', 'ä', 'ö'}
         
         # Define the base layout structure with fixed positions
         self.base_layout = {
@@ -70,24 +66,25 @@ class KeyboardOptimizer:
             'u': {'row': 0, 'col': 8, 'finger': 8},
             'o': {'row': 0, 'col': 9, 'finger': 9},
             'y': {'row': 0, 'col': 10, 'finger': 10},
-            ' ': {'row': 3, 'col': 6, 'finger': 6},  # Space
+            '\\': {'row': 2, 'col': 0, 'finger': 1},  # Fixed in awkward position
+            '/': {'row': 2, 'col': 11, 'finger': 10}, # Fixed in awkward position
+            'q': {'row': 0, 'col': 1, 'finger': 1},   # Fixed q position (second column, not first)
+            'ä': {'row': 1, 'col': 11, 'finger': 10}, # Fixed ä position
+            'ö': {'row': 0, 'col': 11, 'finger': 10}, # Fixed ö position
+            ' ': {'row': 3, 'col': 6, 'finger': 6},   # Space
         }
         
         # Moveable positions (empty in base, will be filled by optimization)
         self.moveable_positions = [
-            {'row': 0, 'col': 1, 'finger': 1},   # q position
             {'row': 0, 'col': 2, 'finger': 2},   # l position
             {'row': 0, 'col': 3, 'finger': 3},   # c position
             {'row': 0, 'col': 4, 'finger': 4},   # m position
             {'row': 0, 'col': 5, 'finger': 4},   # k position
             {'row': 0, 'col': 6, 'finger': 7},   # ' position
             {'row': 0, 'col': 7, 'finger': 7},   # f position
-            {'row': 0, 'col': 11, 'finger': 10}, # ö position
             {'row': 1, 'col': 0, 'finger': 1},   # - position
             {'row': 1, 'col': 5, 'finger': 4},   # w position
             {'row': 1, 'col': 6, 'finger': 7},   # p position
-            {'row': 1, 'col': 11, 'finger': 10}, # ä position
-            {'row': 2, 'col': 0, 'finger': 1},   # \ position
             {'row': 2, 'col': 1, 'finger': 1},   # j position
             {'row': 2, 'col': 2, 'finger': 2},   # x position
             {'row': 2, 'col': 3, 'finger': 3},   # z position
@@ -98,12 +95,11 @@ class KeyboardOptimizer:
             {'row': 2, 'col': 8, 'finger': 8},   # ; position
             {'row': 2, 'col': 9, 'finger': 9},   # , position
             {'row': 2, 'col': 10, 'finger': 10}, # . position
-            {'row': 2, 'col': 11, 'finger': 10}, # / position
         ]
         
-        # Moveable letters
-        self.moveable_letters = ['q', 'l', 'c', 'm', 'k', "'", 'f', 'ö', '-', 'w', 'p', 'ä', 
-                                '\\', 'j', 'x', 'z', 'g', 'v', 'b', 'd', ';', ',', '.', '/']
+        # Moveable letters (removed \, /, q, ä, ö)
+        self.moveable_letters = ['l', 'c', 'm', 'k', "'", 'f', '-', 'w', 'p', 
+                                'j', 'x', 'z', 'g', 'v', 'b', 'd', ';', ',', '.']
         
         # Load language data
         self.load_language_data()
@@ -121,6 +117,10 @@ class KeyboardOptimizer:
         # Pre-calculate bigrams for efficiency
         self.english_bigrams, self.english_total = self.calculate_bigrams_from_words(self.english_words)
         self.finnish_bigrams, self.finnish_total = self.calculate_bigrams_from_words(self.finnish_words)
+        
+        # Pre-calculate letter frequencies for efficiency
+        self.english_letter_freq = self.calculate_letter_frequencies('english')
+        self.finnish_letter_freq = self.calculate_letter_frequencies('finnish')
         
         print(f"Loaded {len(self.english_words)} English words, {len(self.finnish_words)} Finnish words")
     
@@ -157,6 +157,35 @@ class KeyboardOptimizer:
             layout[letter] = position
             
         return layout
+    
+    def calculate_letter_frequencies(self, language: str) -> Dict[str, float]:
+        """Pre-calculate letter frequencies for a language"""
+        if language == 'english':
+            words = self.english_words
+            total = self.english_total
+        else:
+            words = self.finnish_words
+            total = self.finnish_total
+        
+        letter_freq = {}
+        for word, count in words.items():
+            for char in word:
+                if char not in letter_freq:
+                    letter_freq[char] = 0
+                letter_freq[char] += count
+        
+        # Convert to percentages
+        for char in letter_freq:
+            letter_freq[char] = (letter_freq[char] * 100.0) / total
+            
+        return letter_freq
+    
+    def get_letter_frequency(self, char: str, language: str) -> float:
+        """Get the pre-calculated frequency of a letter in a language"""
+        if language == 'english':
+            return self.english_letter_freq.get(char, 0.0)
+        else:
+            return self.finnish_letter_freq.get(char, 0.0)
     
     def calculate_metrics(self, layout: Dict[str, Dict[str, int]], 
                          bigrams: Dict[str, int], total_length: int) -> LayoutMetrics:
@@ -230,6 +259,8 @@ class KeyboardOptimizer:
         # Skip bigrams approximation (use scissors as rough estimate)
         skip_bigrams_pct = scissors_pct
         
+        # No uncomfortable position penalties needed since q, ä, ö are now fixed
+        
         return LayoutMetrics(
             sfb=sfb_pct,
             scissors=scissors_pct,
@@ -243,9 +274,9 @@ class KeyboardOptimizer:
         english_metrics = self.calculate_metrics(layout_positions, self.english_bigrams, self.english_total)
         finnish_metrics = self.calculate_metrics(layout_positions, self.finnish_bigrams, self.finnish_total)
         
-        # Calculate weighted score (80% English, 20% Finnish)
-        english_score = english_metrics.sfb + english_metrics.scissors + english_metrics.lat_stretch
-        finnish_score = finnish_metrics.sfb + finnish_metrics.scissors + finnish_metrics.lat_stretch
+        # Calculate weighted score (80% English, 20% Finnish) - SFB only for now
+        english_score = english_metrics.sfb
+        finnish_score = finnish_metrics.sfb
         weighted_score = 0.8 * english_score + 0.2 * finnish_score
         
         return Layout(
@@ -323,16 +354,10 @@ class KeyboardOptimizer:
         for layout in front:
             layout.crowding_distance = 0
         
-        # Get all objectives
+        # Get all objectives - SFB only for now
         objectives = [
             lambda l: l.english_metrics.sfb,
-            lambda l: l.english_metrics.scissors,
-            lambda l: l.english_metrics.lat_stretch,
-            lambda l: l.english_metrics.skip_bigrams,
             lambda l: l.finnish_metrics.sfb,
-            lambda l: l.finnish_metrics.scissors,
-            lambda l: l.finnish_metrics.lat_stretch,
-            lambda l: l.finnish_metrics.skip_bigrams,
         ]
         
         # Calculate crowding distance for each objective

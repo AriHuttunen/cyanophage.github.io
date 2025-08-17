@@ -1,0 +1,4371 @@
+{
+  "metadata": {
+    "export_date": "2025-08-17T00:32:43.618527",
+    "total_layouts": 57,
+    "optimization_type": "NSGA-II Pareto Multi-Objective",
+    "languages": [
+      "English (80%)",
+      "Finnish (20%)"
+    ],
+    "fixed_letters": [
+      "n",
+      "r",
+      "s",
+      "t",
+      "h",
+      "e",
+      "a",
+      "i",
+      "u",
+      "o",
+      "y",
+      "\\",
+      "/",
+      "q",
+      "ä",
+      "ö"
+    ],
+    "optimized_positions": 19,
+    "metrics": [
+      "SFB",
+      "Scissors",
+      "Lateral Stretch",
+      "Skip Bigrams"
+    ],
+    "description": "Keyboard layouts optimized for bilingual English/Finnish typing"
+  },
+  "layouts": [
+    {
+      "id": 1,
+      "rank_by_weighted_score": 1,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "d",
+            "k",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "g",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "j",
+            "m",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z d k ; u o y ö",
+          "b n r s t g v h e a i ä",
+          "\\ p x c j m , f ' . - /"
+        ],
+        "typing_string": "qlwzdk;uoyöbnrstgvheaiä\\pxcjm,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.627,
+        "scissors": 0.519,
+        "lateral_stretch": 2.061,
+        "skip_bigrams": 0.519,
+        "total_penalty": 3.726
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.154,
+        "scissors": 0.042,
+        "lateral_stretch": 4.12,
+        "skip_bigrams": 0.042,
+        "total_penalty": 5.359
+      },
+      "combined_scores": {
+        "weighted_score": 0.732,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.053
+      }
+    },
+    {
+      "id": 2,
+      "rank_by_weighted_score": 2,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "m",
+            "d",
+            "k",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "g",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "j",
+            "z",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w m d k ; u o y ö",
+          "b n r s t g v h e a i ä",
+          "\\ p x c j z , f ' . - /"
+        ],
+        "typing_string": "qlwmdk;uoyöbnrstgvheaiä\\pxcjz,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.627,
+        "scissors": 0.525,
+        "lateral_stretch": 1.909,
+        "skip_bigrams": 0.525,
+        "total_penalty": 3.586
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.154,
+        "scissors": 0.043,
+        "lateral_stretch": 3.998,
+        "skip_bigrams": 0.043,
+        "total_penalty": 5.239
+      },
+      "combined_scores": {
+        "weighted_score": 0.732,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.917
+      }
+    },
+    {
+      "id": 3,
+      "rank_by_weighted_score": 3,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "g",
+            "x",
+            ".",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "k",
+            "v",
+            "b",
+            ";",
+            "'",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d g x . u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j k v b ; ' - /"
+        ],
+        "typing_string": "qwcdgx.uoyöznrstm,heaiä\\plfjkvb;'-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.611,
+        "scissors": 0.367,
+        "lateral_stretch": 1.858,
+        "skip_bigrams": 0.367,
+        "total_penalty": 3.204
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.266,
+        "scissors": 0.017,
+        "lateral_stretch": 2.338,
+        "skip_bigrams": 0.017,
+        "total_penalty": 3.637
+      },
+      "combined_scores": {
+        "weighted_score": 0.742,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.29
+      }
+    },
+    {
+      "id": 4,
+      "rank_by_weighted_score": 4,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "g",
+            "k",
+            "z",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v x ' u o y ö",
+          "b n r s t m , h e a i ä",
+          "\\ p l f j g k z ; . - /"
+        ],
+        "typing_string": "qwcdvx'uoyöbnrstm,heaiä\\plfjgkz;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.646,
+        "scissors": 0.217,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.217,
+        "total_penalty": 2.058
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.143,
+        "scissors": 0.004,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.004,
+        "total_penalty": 4.131
+      },
+      "combined_scores": {
+        "weighted_score": 0.745,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.473
+      }
+    },
+    {
+      "id": 5,
+      "rank_by_weighted_score": 5,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "g",
+            "d",
+            "b",
+            ".",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "k",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "w",
+            "j",
+            "m",
+            ",",
+            "f",
+            "'",
+            ";",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c g d b . u o y ö",
+          "z n r s t k v h e a i ä",
+          "\\ p x w j m , f ' ; - /"
+        ],
+        "typing_string": "qlcgdb.uoyöznrstkvheaiä\\pxwjm,f';-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.617,
+        "scissors": 0.39,
+        "lateral_stretch": 2.657,
+        "skip_bigrams": 0.39,
+        "total_penalty": 4.054
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.263,
+        "scissors": 0.043,
+        "lateral_stretch": 2.382,
+        "skip_bigrams": 0.043,
+        "total_penalty": 3.732
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.989
+      }
+    },
+    {
+      "id": 6,
+      "rank_by_weighted_score": 6,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "m",
+            "d",
+            "b",
+            ".",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "k",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "w",
+            "j",
+            "g",
+            ",",
+            "f",
+            "'",
+            ";",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c m d b . u o y ö",
+          "z n r s t k v h e a i ä",
+          "\\ p x w j g , f ' ; - /"
+        ],
+        "typing_string": "qlcmdb.uoyöznrstkvheaiä\\pxwjg,f';-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.617,
+        "scissors": 0.391,
+        "lateral_stretch": 2.649,
+        "skip_bigrams": 0.391,
+        "total_penalty": 4.048
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.263,
+        "scissors": 0.044,
+        "lateral_stretch": 2.279,
+        "skip_bigrams": 0.044,
+        "total_penalty": 3.629
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.964
+      }
+    },
+    {
+      "id": 7,
+      "rank_by_weighted_score": 7,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "d",
+            "m",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "k",
+            "g",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z d m ; u o y ö",
+          "b n r s t j v h e a i ä",
+          "\\ p x c k g , f ' . - /"
+        ],
+        "typing_string": "qlwzdm;uoyöbnrstjvheaiä\\pxckg,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.521,
+        "lateral_stretch": 3.019,
+        "skip_bigrams": 0.521,
+        "total_penalty": 4.669
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.043,
+        "lateral_stretch": 3.002,
+        "skip_bigrams": 0.043,
+        "total_penalty": 4.388
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.613
+      }
+    },
+    {
+      "id": 8,
+      "rank_by_weighted_score": 8,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "d",
+            ";",
+            "m",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "k",
+            "g",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z d ; m u o y ö",
+          "b n r s t j v h e a i ä",
+          "\\ p x c k g , f ' . - /"
+        ],
+        "typing_string": "qlwzd;muoyöbnrstjvheaiä\\pxckg,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.54,
+        "lateral_stretch": 1.586,
+        "skip_bigrams": 0.54,
+        "total_penalty": 3.274
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.043,
+        "lateral_stretch": 1.412,
+        "skip_bigrams": 0.043,
+        "total_penalty": 2.798
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.179
+      }
+    },
+    {
+      "id": 9,
+      "rank_by_weighted_score": 9,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "d",
+            "z",
+            ";",
+            "m",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "k",
+            "g",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w d z ; m u o y ö",
+          "b n r s t j v h e a i ä",
+          "\\ p x c k g , f ' . - /"
+        ],
+        "typing_string": "qlwdz;muoyöbnrstjvheaiä\\pxckg,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.547,
+        "lateral_stretch": 1.303,
+        "skip_bigrams": 0.547,
+        "total_penalty": 3.005
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.044,
+        "lateral_stretch": 1.394,
+        "skip_bigrams": 0.044,
+        "total_penalty": 2.781
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.96
+      }
+    },
+    {
+      "id": 10,
+      "rank_by_weighted_score": 10,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "d",
+            "m",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "g",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "k",
+            "j",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z d m ; u o y ö",
+          "b n r s t g v h e a i ä",
+          "\\ p x c k j , f ' . - /"
+        ],
+        "typing_string": "qlwzdm;uoyöbnrstgvheaiä\\pxckj,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.521,
+        "lateral_stretch": 3.019,
+        "skip_bigrams": 0.521,
+        "total_penalty": 4.669
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.043,
+        "lateral_stretch": 3.002,
+        "skip_bigrams": 0.043,
+        "total_penalty": 4.388
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.613
+      }
+    },
+    {
+      "id": 11,
+      "rank_by_weighted_score": 11,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "d",
+            ";",
+            ",",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "k",
+            "g",
+            "m",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z d ; , u o y ö",
+          "b n r s t j v h e a i ä",
+          "\\ p x c k g m f ' . - /"
+        ],
+        "typing_string": "qlwzd;,uoyöbnrstjvheaiä\\pxckgmf'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.538,
+        "lateral_stretch": 2.876,
+        "skip_bigrams": 0.538,
+        "total_penalty": 4.559
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.043,
+        "lateral_stretch": 3.002,
+        "skip_bigrams": 0.043,
+        "total_penalty": 4.388
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.525
+      }
+    },
+    {
+      "id": 12,
+      "rank_by_weighted_score": 12,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "d",
+            "z",
+            "m",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "k",
+            "g",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w d z m ; u o y ö",
+          "b n r s t j v h e a i ä",
+          "\\ p x c k g , f ' . - /"
+        ],
+        "typing_string": "qlwdzm;uoyöbnrstjvheaiä\\pxckg,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.527,
+        "lateral_stretch": 2.737,
+        "skip_bigrams": 0.527,
+        "total_penalty": 4.399
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.044,
+        "lateral_stretch": 2.984,
+        "skip_bigrams": 0.044,
+        "total_penalty": 4.371
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.394
+      }
+    },
+    {
+      "id": 13,
+      "rank_by_weighted_score": 13,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "g",
+            "m",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "d",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "k",
+            "j",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z g m ; u o y ö",
+          "b n r s t d v h e a i ä",
+          "\\ p x c k j , f ' . - /"
+        ],
+        "typing_string": "qlwzgm;uoyöbnrstdvheaiä\\pxckj,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.521,
+        "lateral_stretch": 3.019,
+        "skip_bigrams": 0.521,
+        "total_penalty": 4.669
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.043,
+        "lateral_stretch": 3.002,
+        "skip_bigrams": 0.043,
+        "total_penalty": 4.388
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.613
+      }
+    },
+    {
+      "id": 14,
+      "rank_by_weighted_score": 14,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "d",
+            "m",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "g",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "j",
+            "k",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z d m ; u o y ö",
+          "b n r s t g v h e a i ä",
+          "\\ p x c j k , f ' . - /"
+        ],
+        "typing_string": "qlwzdm;uoyöbnrstgvheaiä\\pxcjk,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.519,
+        "lateral_stretch": 3.288,
+        "skip_bigrams": 0.519,
+        "total_penalty": 4.934
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.042,
+        "lateral_stretch": 3.817,
+        "skip_bigrams": 0.042,
+        "total_penalty": 5.202
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.988
+      }
+    },
+    {
+      "id": 15,
+      "rank_by_weighted_score": 15,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "j",
+            "z",
+            "m",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "d",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "k",
+            "g",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w j z m ; u o y ö",
+          "b n r s t d v h e a i ä",
+          "\\ p x c k g , f ' . - /"
+        ],
+        "typing_string": "qlwjzm;uoyöbnrstdvheaiä\\pxckg,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.521,
+        "lateral_stretch": 3.019,
+        "skip_bigrams": 0.521,
+        "total_penalty": 4.668
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.043,
+        "lateral_stretch": 2.896,
+        "skip_bigrams": 0.043,
+        "total_penalty": 4.282
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.591
+      }
+    },
+    {
+      "id": 16,
+      "rank_by_weighted_score": 16,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "d",
+            "v",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "g",
+            "m",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "j",
+            "k",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z d v ; u o y ö",
+          "b n r s t g m h e a i ä",
+          "\\ p x c j k , f ' . - /"
+        ],
+        "typing_string": "qlwzdv;uoyöbnrstgmheaiä\\pxcjk,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.519,
+        "lateral_stretch": 3.288,
+        "skip_bigrams": 0.519,
+        "total_penalty": 4.934
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.042,
+        "lateral_stretch": 3.817,
+        "skip_bigrams": 0.042,
+        "total_penalty": 5.202
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.988
+      }
+    },
+    {
+      "id": 17,
+      "rank_by_weighted_score": 17,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "d",
+            "m",
+            ";",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "k",
+            "v",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "j",
+            "g",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z d m ; u o y ö",
+          "b n r s t k v h e a i ä",
+          "\\ p x c j g , f ' . - /"
+        ],
+        "typing_string": "qlwzdm;uoyöbnrstkvheaiä\\pxcjg,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.519,
+        "lateral_stretch": 3.288,
+        "skip_bigrams": 0.519,
+        "total_penalty": 4.934
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.042,
+        "lateral_stretch": 3.817,
+        "skip_bigrams": 0.042,
+        "total_penalty": 5.202
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 4.988
+      }
+    },
+    {
+      "id": 18,
+      "rank_by_weighted_score": 18,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "w",
+            "z",
+            "d",
+            "v",
+            "m",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "b",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            ";",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "c",
+            "k",
+            "g",
+            ",",
+            "f",
+            "'",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l w z d v m u o y ö",
+          "b n r s t j ; h e a i ä",
+          "\\ p x c k g , f ' . - /"
+        ],
+        "typing_string": "qlwzdvmuoyöbnrstj;heaiä\\pxckg,f'.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.608,
+        "scissors": 0.54,
+        "lateral_stretch": 1.586,
+        "skip_bigrams": 0.54,
+        "total_penalty": 3.274
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.3,
+        "scissors": 0.043,
+        "lateral_stretch": 1.412,
+        "skip_bigrams": 0.043,
+        "total_penalty": 2.798
+      },
+      "combined_scores": {
+        "weighted_score": 0.746,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.179
+      }
+    },
+    {
+      "id": 19,
+      "rank_by_weighted_score": 19,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "d",
+            "z",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "p",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "k",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "b",
+            "w",
+            "f",
+            "m",
+            "g",
+            "v",
+            ",",
+            "-",
+            ".",
+            ";",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c d z x ' u o y ö",
+          "p n r s t j k h e a i ä",
+          "\\ b w f m g v , - . ; /"
+        ],
+        "typing_string": "qlcdzx'uoyöpnrstjkheaiä\\bwfmgv,-.;/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.646,
+        "scissors": 0.312,
+        "lateral_stretch": 1.619,
+        "skip_bigrams": 0.312,
+        "total_penalty": 2.889
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.153,
+        "scissors": 0.018,
+        "lateral_stretch": 4.091,
+        "skip_bigrams": 0.018,
+        "total_penalty": 5.281
+      },
+      "combined_scores": {
+        "weighted_score": 0.747,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.367
+      }
+    },
+    {
+      "id": 20,
+      "rank_by_weighted_score": 20,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "j",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "v",
+            "g",
+            "b",
+            "k",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d j x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f v g b k ; . - /"
+        ],
+        "typing_string": "qwcdjx'uoyöznrstm,heaiä\\plfvgbk;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.221,
+        "lateral_stretch": 1.417,
+        "skip_bigrams": 0.221,
+        "total_penalty": 2.51
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.952,
+        "lateral_stretch": 0.309,
+        "skip_bigrams": 0.952,
+        "total_penalty": 3.352
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.678
+      }
+    },
+    {
+      "id": 21,
+      "rank_by_weighted_score": 21,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "g",
+            "b",
+            "k",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j g b k ; . - /"
+        ],
+        "typing_string": "qwcdvx'uoyöznrstm,heaiä\\plfjgbk;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.22,
+        "lateral_stretch": 1.451,
+        "skip_bigrams": 0.22,
+        "total_penalty": 2.543
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.952,
+        "lateral_stretch": 0.34,
+        "skip_bigrams": 0.952,
+        "total_penalty": 3.382
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.711
+      }
+    },
+    {
+      "id": 22,
+      "rank_by_weighted_score": 22,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "g",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "v",
+            "b",
+            "k",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d g x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j v b k ; . - /"
+        ],
+        "typing_string": "qwcdgx'uoyöznrstm,heaiä\\plfjvbk;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.22,
+        "lateral_stretch": 1.451,
+        "skip_bigrams": 0.22,
+        "total_penalty": 2.543
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.952,
+        "lateral_stretch": 0.34,
+        "skip_bigrams": 0.952,
+        "total_penalty": 3.382
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.711
+      }
+    },
+    {
+      "id": 23,
+      "rank_by_weighted_score": 23,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "g",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j g k b ; . - /"
+        ],
+        "typing_string": "qwcdvx'uoyöznrstm,heaiä\\plfjgkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.403,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.403,
+        "total_penalty": 2.434
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.151
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.778
+      }
+    },
+    {
+      "id": 24,
+      "rank_by_weighted_score": 24,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "g",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "v",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d g x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j v k b ; . - /"
+        ],
+        "typing_string": "qwcdgx'uoyöznrstm,heaiä\\plfjvkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.403,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.403,
+        "total_penalty": 2.434
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.151
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.778
+      }
+    },
+    {
+      "id": 25,
+      "rank_by_weighted_score": 25,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "g",
+            "x",
+            ",",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            "'",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "v",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d g x , u o y ö",
+          "z n r s t m ' h e a i ä",
+          "\\ p l f j v k b ; . - /"
+        ],
+        "typing_string": "qwcdgx,uoyöznrstm'heaiä\\plfjvkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.402,
+        "lateral_stretch": 0.914,
+        "skip_bigrams": 0.402,
+        "total_penalty": 2.371
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.983,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.155
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.728
+      }
+    },
+    {
+      "id": 26,
+      "rank_by_weighted_score": 26,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "g",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "v",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d g x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j v k b ; . - /"
+        ],
+        "typing_string": "qwcdgx'uoyöznrstm,heaiä\\plfjvkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.403,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.403,
+        "total_penalty": 2.434
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.151
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.778
+      }
+    },
+    {
+      "id": 27,
+      "rank_by_weighted_score": 27,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "g",
+            "x",
+            ",",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            "'",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "v",
+            "j",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d g x , u o y ö",
+          "z n r s t m ' h e a i ä",
+          "\\ p l f v j k b ; . - /"
+        ],
+        "typing_string": "qwcdgx,uoyöznrstm'heaiä\\plfvjkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.403,
+        "lateral_stretch": 0.88,
+        "skip_bigrams": 0.403,
+        "total_penalty": 2.338
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.952,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.124
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.695
+      }
+    },
+    {
+      "id": 28,
+      "rank_by_weighted_score": 28,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "g",
+            ",",
+            "x",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            "'",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "v",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d g , x u o y ö",
+          "z n r s t m ' h e a i ä",
+          "\\ p l f j v k b ; . - /"
+        ],
+        "typing_string": "qwcdg,xuoyöznrstm'heaiä\\plfjvkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.402,
+        "lateral_stretch": 0.897,
+        "skip_bigrams": 0.402,
+        "total_penalty": 2.354
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.978,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.15
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.713
+      }
+    },
+    {
+      "id": 29,
+      "rank_by_weighted_score": 29,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "x",
+            ",",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            "'",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "g",
+            "j",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v x , u o y ö",
+          "z n r s t m ' h e a i ä",
+          "\\ p l f g j k b ; . - /"
+        ],
+        "typing_string": "qwcdvx,uoyöznrstm'heaiä\\plfgjkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.403,
+        "lateral_stretch": 0.768,
+        "skip_bigrams": 0.403,
+        "total_penalty": 2.225
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.017,
+        "lateral_stretch": 3.068,
+        "skip_bigrams": 0.017,
+        "total_penalty": 4.241
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.628
+      }
+    },
+    {
+      "id": 30,
+      "rank_by_weighted_score": 30,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "g",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j g k b ; . - /"
+        ],
+        "typing_string": "qwcdvx'uoyöznrstm,heaiä\\plfjgkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.403,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.403,
+        "total_penalty": 2.434
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.151
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.778
+      }
+    },
+    {
+      "id": 31,
+      "rank_by_weighted_score": 31,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "p",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "z",
+            "l",
+            "f",
+            "j",
+            "g",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v x ' u o y ö",
+          "p n r s t m , h e a i ä",
+          "\\ z l f j g k b ; . - /"
+        ],
+        "typing_string": "qwcdvx'uoyöpnrstm,heaiä\\zlfjgkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.402,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.402,
+        "total_penalty": 2.434
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.151
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.777
+      }
+    },
+    {
+      "id": 32,
+      "rank_by_weighted_score": 32,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "m",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "v",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "g",
+            "b",
+            "k",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d m x ' u o y ö",
+          "z n r s t v , h e a i ä",
+          "\\ p l f j g b k ; . - /"
+        ],
+        "typing_string": "qwcdmx'uoyöznrstv,heaiä\\plfjgbk;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.22,
+        "lateral_stretch": 1.451,
+        "skip_bigrams": 0.22,
+        "total_penalty": 2.543
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.952,
+        "lateral_stretch": 0.34,
+        "skip_bigrams": 0.952,
+        "total_penalty": 3.382
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.711
+      }
+    },
+    {
+      "id": 33,
+      "rank_by_weighted_score": 33,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "x",
+            "b",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            "'",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "g",
+            "j",
+            "k",
+            ",",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v x b u o y ö",
+          "z n r s t m ' h e a i ä",
+          "\\ p l f g j k , ; . - /"
+        ],
+        "typing_string": "qwcdvxbuoyöznrstm'heaiä\\plfgjk,;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.218,
+        "lateral_stretch": 0.768,
+        "skip_bigrams": 0.218,
+        "total_penalty": 1.855
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.004,
+        "lateral_stretch": 3.068,
+        "skip_bigrams": 0.004,
+        "total_penalty": 4.216
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.327
+      }
+    },
+    {
+      "id": 34,
+      "rank_by_weighted_score": 34,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            "b",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "g",
+            "j",
+            "k",
+            ",",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v x ' u o y ö",
+          "z n r s t m b h e a i ä",
+          "\\ p l f g j k , ; . - /"
+        ],
+        "typing_string": "qwcdvx'uoyöznrstmbheaiä\\plfgjk,;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.218,
+        "lateral_stretch": 1.499,
+        "skip_bigrams": 0.218,
+        "total_penalty": 2.587
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.004,
+        "lateral_stretch": 3.118,
+        "skip_bigrams": 0.004,
+        "total_penalty": 4.265
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.922
+      }
+    },
+    {
+      "id": 35,
+      "rank_by_weighted_score": 35,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "g",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "v",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "m",
+            "b",
+            "k",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d g x ' u o y ö",
+          "z n r s t v , h e a i ä",
+          "\\ p l f j m b k ; . - /"
+        ],
+        "typing_string": "qwcdgx'uoyöznrstv,heaiä\\plfjmbk;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.22,
+        "lateral_stretch": 1.451,
+        "skip_bigrams": 0.22,
+        "total_penalty": 2.543
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.952,
+        "lateral_stretch": 0.34,
+        "skip_bigrams": 0.952,
+        "total_penalty": 3.382
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.711
+      }
+    },
+    {
+      "id": 36,
+      "rank_by_weighted_score": 36,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "d",
+            "g",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "w",
+            "f",
+            "j",
+            "v",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c d g x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p w f j v k b ; . - /"
+        ],
+        "typing_string": "qlcdgx'uoyöznrstm,heaiä\\pwfjvkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.569,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.569,
+        "total_penalty": 2.766
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.058,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.058,
+        "total_penalty": 4.235
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.06
+      }
+    },
+    {
+      "id": 37,
+      "rank_by_weighted_score": 37,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "v",
+            "g",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "d",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c v g x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j d k b ; . - /"
+        ],
+        "typing_string": "qwcvgx'uoyöznrstm,heaiä\\plfjdkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.4,
+        "lateral_stretch": 1.224,
+        "skip_bigrams": 0.4,
+        "total_penalty": 2.676
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.861,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.032
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.947
+      }
+    },
+    {
+      "id": 38,
+      "rank_by_weighted_score": 38,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "m",
+            "v",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "d",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "g",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c m v x ' u o y ö",
+          "z n r s t d , h e a i ä",
+          "\\ p l f j g k b ; . - /"
+        ],
+        "typing_string": "qwcmvx'uoyöznrstd,heaiä\\plfjgkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.405,
+        "lateral_stretch": 1.102,
+        "skip_bigrams": 0.405,
+        "total_penalty": 2.565
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.017,
+        "lateral_stretch": 2.874,
+        "skip_bigrams": 0.017,
+        "total_penalty": 4.047
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.861
+      }
+    },
+    {
+      "id": 39,
+      "rank_by_weighted_score": 39,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "f",
+            "d",
+            "v",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "p",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "z",
+            "l",
+            "c",
+            "j",
+            "g",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w f d v x ' u o y ö",
+          "p n r s t m , h e a i ä",
+          "\\ z l c j g k b ; . - /"
+        ],
+        "typing_string": "qwfdvx'uoyöpnrstm,heaiä\\zlcjgkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.346,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.346,
+        "total_penalty": 2.322
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.023,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.023,
+        "total_penalty": 4.164
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.69
+      }
+    },
+    {
+      "id": 40,
+      "rank_by_weighted_score": 40,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "g",
+            "x",
+            "b",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "v",
+            "k",
+            "'",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d g x b u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j v k ' ; . - /"
+        ],
+        "typing_string": "qwcdgxbuoyöznrstm,heaiä\\plfjvk';.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.232,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.232,
+        "total_penalty": 2.093
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.004,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.004,
+        "total_penalty": 4.126
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.499
+      }
+    },
+    {
+      "id": 41,
+      "rank_by_weighted_score": 41,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "x",
+            "'",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "l",
+            "f",
+            "j",
+            "g",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v x ' u o y ö",
+          "z n r s t m , h e a i ä",
+          "\\ p l f j g k b ; . - /"
+        ],
+        "typing_string": "qwcdvx'uoyöznrstm,heaiä\\plfjgkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.652,
+        "scissors": 0.403,
+        "lateral_stretch": 0.977,
+        "skip_bigrams": 0.403,
+        "total_penalty": 2.434
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.139,
+        "scissors": 0.016,
+        "lateral_stretch": 2.979,
+        "skip_bigrams": 0.016,
+        "total_penalty": 4.151
+      },
+      "combined_scores": {
+        "weighted_score": 0.749,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.778
+      }
+    },
+    {
+      "id": 42,
+      "rank_by_weighted_score": 42,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "k",
+            "j",
+            ".",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "p",
+            "n",
+            "r",
+            "s",
+            "t",
+            "z",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "b",
+            "l",
+            "v",
+            "m",
+            "g",
+            "x",
+            "f",
+            "-",
+            "'",
+            ";",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d k j . u o y ö",
+          "p n r s t z , h e a i ä",
+          "\\ b l v m g x f - ' ; /"
+        ],
+        "typing_string": "qwcdkj.uoyöpnrstz,heaiä\\blvmgxf-';/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.606,
+        "scissors": 0.277,
+        "lateral_stretch": 0.846,
+        "skip_bigrams": 0.277,
+        "total_penalty": 2.006
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.338,
+        "scissors": 0.008,
+        "lateral_stretch": 1.966,
+        "skip_bigrams": 0.008,
+        "total_penalty": 3.32
+      },
+      "combined_scores": {
+        "weighted_score": 0.752,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.269
+      }
+    },
+    {
+      "id": 43,
+      "rank_by_weighted_score": 43,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "k",
+            "j",
+            ".",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "p",
+            "n",
+            "r",
+            "s",
+            "t",
+            "z",
+            "f",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "b",
+            "l",
+            "v",
+            "m",
+            "g",
+            "x",
+            ",",
+            "-",
+            "'",
+            ";",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d k j . u o y ö",
+          "p n r s t z f h e a i ä",
+          "\\ b l v m g x , - ' ; /"
+        ],
+        "typing_string": "qwcdkj.uoyöpnrstzfheaiä\\blvmgx,-';/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.606,
+        "scissors": 0.201,
+        "lateral_stretch": 1.551,
+        "skip_bigrams": 0.201,
+        "total_penalty": 2.559
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.338,
+        "scissors": 0.005,
+        "lateral_stretch": 1.994,
+        "skip_bigrams": 0.005,
+        "total_penalty": 3.343
+      },
+      "combined_scores": {
+        "weighted_score": 0.752,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.716
+      }
+    },
+    {
+      "id": 44,
+      "rank_by_weighted_score": 44,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "k",
+            "j",
+            "x",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "p",
+            "n",
+            "r",
+            "s",
+            "t",
+            "z",
+            ",",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "b",
+            "l",
+            "v",
+            "m",
+            "g",
+            ".",
+            "f",
+            "-",
+            "'",
+            ";",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d k j x u o y ö",
+          "p n r s t z , h e a i ä",
+          "\\ b l v m g . f - ' ; /"
+        ],
+        "typing_string": "qwcdkjxuoyöpnrstz,heaiä\\blvmg.f-';/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.606,
+        "scissors": 0.278,
+        "lateral_stretch": 0.863,
+        "skip_bigrams": 0.278,
+        "total_penalty": 2.025
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.338,
+        "scissors": 0.008,
+        "lateral_stretch": 1.963,
+        "skip_bigrams": 0.008,
+        "total_penalty": 3.318
+      },
+      "combined_scores": {
+        "weighted_score": 0.752,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 2.283
+      }
+    },
+    {
+      "id": 45,
+      "rank_by_weighted_score": 45,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "z",
+            "v",
+            "'",
+            "k",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "w",
+            "n",
+            "r",
+            "s",
+            "t",
+            "d",
+            "b",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "p",
+            "x",
+            "g",
+            "j",
+            "m",
+            "f",
+            ";",
+            "-",
+            ",",
+            ".",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c z v ' k u o y ö",
+          "w n r s t d b h e a i ä",
+          "\\ p x g j m f ; - , . /"
+        ],
+        "typing_string": "qlczv'kuoyöwnrstdbheaiä\\pxgjmf;-,./"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.668,
+        "scissors": 0.38,
+        "lateral_stretch": 2.231,
+        "skip_bigrams": 0.38,
+        "total_penalty": 3.66
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.137,
+        "scissors": 0.044,
+        "lateral_stretch": 0.364,
+        "skip_bigrams": 0.044,
+        "total_penalty": 1.589
+      },
+      "combined_scores": {
+        "weighted_score": 0.762,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.246
+      }
+    },
+    {
+      "id": 46,
+      "rank_by_weighted_score": 46,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "f",
+            "d",
+            "v",
+            "'",
+            "z",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "x",
+            "n",
+            "r",
+            "s",
+            "t",
+            "g",
+            "p",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "b",
+            "l",
+            "c",
+            "j",
+            "m",
+            "k",
+            ",",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w f d v ' z u o y ö",
+          "x n r s t g p h e a i ä",
+          "\\ b l c j m k , ; . - /"
+        ],
+        "typing_string": "qwfdv'zuoyöxnrstgpheaiä\\blcjmk,;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.703,
+        "scissors": 0.162,
+        "lateral_stretch": 1.68,
+        "skip_bigrams": 0.162,
+        "total_penalty": 2.707
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.126,
+        "scissors": 0.01,
+        "lateral_stretch": 3.916,
+        "skip_bigrams": 0.01,
+        "total_penalty": 5.062
+      },
+      "combined_scores": {
+        "weighted_score": 0.788,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.178
+      }
+    },
+    {
+      "id": 47,
+      "rank_by_weighted_score": 47,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "d",
+            "g",
+            "'",
+            "b",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            ";",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "f",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "x",
+            "z",
+            "w",
+            "m",
+            "v",
+            "p",
+            "k",
+            "-",
+            ",",
+            ".",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c d g ' b u o y ö",
+          "; n r s t j f h e a i ä",
+          "\\ x z w m v p k - , . /"
+        ],
+        "typing_string": "qlcdg'buoyö;nrstjfheaiä\\xzwmvpk-,./"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.71,
+        "scissors": 0.149,
+        "lateral_stretch": 2.042,
+        "skip_bigrams": 0.149,
+        "total_penalty": 3.05
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.123,
+        "scissors": 0.95,
+        "lateral_stretch": 1.233,
+        "skip_bigrams": 0.95,
+        "total_penalty": 4.257
+      },
+      "combined_scores": {
+        "weighted_score": 0.793,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.292
+      }
+    },
+    {
+      "id": 48,
+      "rank_by_weighted_score": 48,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "p",
+            ",",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "z",
+            "n",
+            "r",
+            "s",
+            "t",
+            "m",
+            "'",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "x",
+            "l",
+            "f",
+            "g",
+            "j",
+            "k",
+            "b",
+            ";",
+            ".",
+            "-",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v p , u o y ö",
+          "z n r s t m ' h e a i ä",
+          "\\ x l f g j k b ; . - /"
+        ],
+        "typing_string": "qwcdvp,uoyöznrstm'heaiä\\xlfgjkb;.-/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.711,
+        "scissors": 0.403,
+        "lateral_stretch": 1.534,
+        "skip_bigrams": 0.403,
+        "total_penalty": 3.05
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.121,
+        "scissors": 0.017,
+        "lateral_stretch": 4.002,
+        "skip_bigrams": 0.017,
+        "total_penalty": 5.157
+      },
+      "combined_scores": {
+        "weighted_score": 0.793,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.472
+      }
+    },
+    {
+      "id": 49,
+      "rank_by_weighted_score": 49,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "v",
+            "b",
+            ",",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "x",
+            "n",
+            "r",
+            "s",
+            "t",
+            "z",
+            "p",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "-",
+            "l",
+            "g",
+            "j",
+            "m",
+            "k",
+            "f",
+            "'",
+            ".",
+            ";",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d v b , u o y ö",
+          "x n r s t z p h e a i ä",
+          "\\ - l g j m k f ' . ; /"
+        ],
+        "typing_string": "qwcdvb,uoyöxnrstzpheaiä\\-lgjmkf'.;/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.725,
+        "scissors": 0.323,
+        "lateral_stretch": 2.274,
+        "skip_bigrams": 0.323,
+        "total_penalty": 3.645
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.121,
+        "scissors": 0.007,
+        "lateral_stretch": 3.946,
+        "skip_bigrams": 0.007,
+        "total_penalty": 5.082
+      },
+      "combined_scores": {
+        "weighted_score": 0.804,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.933
+      }
+    },
+    {
+      "id": 50,
+      "rank_by_weighted_score": 50,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "m",
+            "b",
+            ",",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "x",
+            "n",
+            "r",
+            "s",
+            "t",
+            "z",
+            "p",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "-",
+            "l",
+            "g",
+            "j",
+            "v",
+            "k",
+            "f",
+            "'",
+            ".",
+            ";",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d m b , u o y ö",
+          "x n r s t z p h e a i ä",
+          "\\ - l g j v k f ' . ; /"
+        ],
+        "typing_string": "qwcdmb,uoyöxnrstzpheaiä\\-lgjvkf'.;/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.725,
+        "scissors": 0.323,
+        "lateral_stretch": 2.274,
+        "skip_bigrams": 0.323,
+        "total_penalty": 3.645
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.121,
+        "scissors": 0.007,
+        "lateral_stretch": 3.946,
+        "skip_bigrams": 0.007,
+        "total_penalty": 5.082
+      },
+      "combined_scores": {
+        "weighted_score": 0.804,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.933
+      }
+    },
+    {
+      "id": 51,
+      "rank_by_weighted_score": 51,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "w",
+            "c",
+            "d",
+            "m",
+            "b",
+            ",",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "x",
+            "n",
+            "r",
+            "s",
+            "t",
+            "z",
+            "k",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "-",
+            "l",
+            "g",
+            "j",
+            "v",
+            "p",
+            "f",
+            "'",
+            ".",
+            ";",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q w c d m b , u o y ö",
+          "x n r s t z k h e a i ä",
+          "\\ - l g j v p f ' . ; /"
+        ],
+        "typing_string": "qwcdmb,uoyöxnrstzkheaiä\\-lgjvpf'.;/"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.725,
+        "scissors": 0.323,
+        "lateral_stretch": 2.274,
+        "skip_bigrams": 0.323,
+        "total_penalty": 3.645
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.121,
+        "scissors": 0.007,
+        "lateral_stretch": 3.946,
+        "skip_bigrams": 0.007,
+        "total_penalty": 5.082
+      },
+      "combined_scores": {
+        "weighted_score": 0.804,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.933
+      }
+    },
+    {
+      "id": 52,
+      "rank_by_weighted_score": 52,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            ";",
+            "d",
+            "'",
+            "b",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "w",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "f",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "z",
+            "x",
+            "g",
+            "m",
+            "v",
+            "p",
+            "k",
+            "-",
+            ",",
+            ".",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c ; d ' b u o y ö",
+          "w n r s t j f h e a i ä",
+          "\\ z x g m v p k - , . /"
+        ],
+        "typing_string": "qlc;d'buoyöwnrstjfheaiä\\zxgmvpk-,./"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.736,
+        "scissors": 0.173,
+        "lateral_stretch": 2.191,
+        "skip_bigrams": 0.173,
+        "total_penalty": 3.274
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.12,
+        "scissors": 0.958,
+        "lateral_stretch": 1.233,
+        "skip_bigrams": 0.958,
+        "total_penalty": 4.269
+      },
+      "combined_scores": {
+        "weighted_score": 0.813,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.473
+      }
+    },
+    {
+      "id": 53,
+      "rank_by_weighted_score": 53,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "d",
+            ";",
+            "'",
+            "b",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "w",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "f",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "z",
+            "x",
+            "g",
+            "m",
+            "v",
+            "p",
+            "k",
+            "-",
+            ",",
+            ".",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c d ; ' b u o y ö",
+          "w n r s t j f h e a i ä",
+          "\\ z x g m v p k - , . /"
+        ],
+        "typing_string": "qlcd;'buoyöwnrstjfheaiä\\zxgmvpk-,./"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.736,
+        "scissors": 0.191,
+        "lateral_stretch": 1.918,
+        "skip_bigrams": 0.191,
+        "total_penalty": 3.036
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.12,
+        "scissors": 0.959,
+        "lateral_stretch": 1.213,
+        "skip_bigrams": 0.959,
+        "total_penalty": 4.251
+      },
+      "combined_scores": {
+        "weighted_score": 0.813,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.279
+      }
+    },
+    {
+      "id": 54,
+      "rank_by_weighted_score": 54,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "d",
+            "v",
+            "'",
+            "b",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "w",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "f",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "z",
+            "x",
+            "g",
+            "m",
+            ";",
+            "p",
+            "k",
+            "-",
+            ",",
+            ".",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c d v ' b u o y ö",
+          "w n r s t j f h e a i ä",
+          "\\ z x g m ; p k - , . /"
+        ],
+        "typing_string": "qlcdv'buoyöwnrstjfheaiä\\zxgm;pk-,./"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.736,
+        "scissors": 0.191,
+        "lateral_stretch": 1.918,
+        "skip_bigrams": 0.191,
+        "total_penalty": 3.036
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.12,
+        "scissors": 0.959,
+        "lateral_stretch": 1.213,
+        "skip_bigrams": 0.959,
+        "total_penalty": 4.251
+      },
+      "combined_scores": {
+        "weighted_score": 0.813,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.279
+      }
+    },
+    {
+      "id": 55,
+      "rank_by_weighted_score": 55,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "m",
+            ";",
+            "'",
+            "b",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "w",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "f",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "z",
+            "x",
+            "g",
+            "d",
+            "v",
+            "p",
+            "k",
+            "-",
+            ",",
+            ".",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c m ; ' b u o y ö",
+          "w n r s t j f h e a i ä",
+          "\\ z x g d v p k - , . /"
+        ],
+        "typing_string": "qlcm;'buoyöwnrstjfheaiä\\zxgdvpk-,./"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.736,
+        "scissors": 0.177,
+        "lateral_stretch": 1.918,
+        "skip_bigrams": 0.177,
+        "total_penalty": 3.008
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.12,
+        "scissors": 0.958,
+        "lateral_stretch": 1.213,
+        "skip_bigrams": 0.958,
+        "total_penalty": 4.25
+      },
+      "combined_scores": {
+        "weighted_score": 0.813,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.256
+      }
+    },
+    {
+      "id": 56,
+      "rank_by_weighted_score": 56,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "d",
+            "v",
+            "'",
+            "b",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "w",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "f",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "z",
+            "x",
+            "g",
+            "m",
+            ";",
+            "k",
+            "p",
+            "-",
+            ",",
+            ".",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c d v ' b u o y ö",
+          "w n r s t j f h e a i ä",
+          "\\ z x g m ; k p - , . /"
+        ],
+        "typing_string": "qlcdv'buoyöwnrstjfheaiä\\zxgm;kp-,./"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.736,
+        "scissors": 0.358,
+        "lateral_stretch": 1.324,
+        "skip_bigrams": 0.358,
+        "total_penalty": 2.777
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.12,
+        "scissors": 0.322,
+        "lateral_stretch": 2.966,
+        "skip_bigrams": 0.322,
+        "total_penalty": 4.73
+      },
+      "combined_scores": {
+        "weighted_score": 0.813,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.168
+      }
+    },
+    {
+      "id": 57,
+      "rank_by_weighted_score": 57,
+      "layout": {
+        "grid": [
+          [
+            "",
+            "q",
+            "l",
+            "c",
+            "d",
+            ",",
+            "'",
+            "b",
+            "u",
+            "o",
+            "y",
+            "ö"
+          ],
+          [
+            "w",
+            "n",
+            "r",
+            "s",
+            "t",
+            "j",
+            "f",
+            "h",
+            "e",
+            "a",
+            "i",
+            "ä"
+          ],
+          [
+            "\\",
+            "z",
+            "x",
+            "g",
+            "m",
+            "v",
+            "p",
+            "k",
+            ";",
+            "-",
+            ".",
+            "/"
+          ]
+        ],
+        "flat_representation": [
+          "  q l c d , ' b u o y ö",
+          "w n r s t j f h e a i ä",
+          "\\ z x g m v p k ; - . /"
+        ],
+        "typing_string": "qlcd,'buoyöwnrstjfheaiä\\zxgmvpk;-./"
+      },
+      "english_metrics": {
+        "same_finger_bigrams": 0.835,
+        "scissors": 0.11,
+        "lateral_stretch": 2.116,
+        "skip_bigrams": 0.11,
+        "total_penalty": 3.172
+      },
+      "finnish_metrics": {
+        "same_finger_bigrams": 1.12,
+        "scissors": 0.959,
+        "lateral_stretch": 1.213,
+        "skip_bigrams": 0.959,
+        "total_penalty": 4.251
+      },
+      "combined_scores": {
+        "weighted_score": 0.892,
+        "english_weight": 0.8,
+        "finnish_weight": 0.2,
+        "combined_total_penalty": 3.388
+      }
+    }
+  ]
+}
